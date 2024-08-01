@@ -32,7 +32,7 @@ const S1Hero = () => {
                                         <div /*data-aos="fade-up"*/ className="  max-w-2xl  ">
 
                                             <p className="text-base leading-relaxed font-thin tablet:phone:text-sm  text-gray-300 tablet:phone:leading-relaxed  tablet:text-center">
-                                                We’re ready to launch the next big crypto coin – and trust us,  is BIG. Thanks to trending on crypto platforms and building up a loyal following of   fans.trending on crypto platforms and buildingtrending on crypto platforms and building
+                                                Smart BC Concept integrates blockchain with health, wellness, and digital products, offering secure transactions, training, and a rewarding compensation plan for personal and professional growth in a supportive global community.
                                             </p>
                                         </div>
 

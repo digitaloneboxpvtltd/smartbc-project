@@ -46,14 +46,14 @@ const Navbar = () => {
 
                     <a href="/" onClick={closeMenu}>
                         <div className="flex items-center space-x-3 rtl:space-x-reverse">
-                            <img loading="lazy" src={logo}  className=' w-[9rem] h-auto '  alt="VOIP" />
+                            <img loading="lazy" src={logo}  className=' w-[9rem] phone:w-[6rem] h-auto '  alt="VOIP" />
                             {/* <h1 className=' text-4xl font-bold font-outfit  text-primary-gradient phone:text-xl ' >Logo</h1> */}
                         </div>
                     </a>
 
 
                     <div className="flex  md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-                        <div className=' flex gap-3' >
+                        <div className=' flex gap-3 phone:gap-1 ' >
                             
                             <Link to="/" className='rbtn rounded-full'>
                                 <span className="text rounded-full px-5 py-3 ">Sign In</span>

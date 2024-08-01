@@ -118,7 +118,7 @@ const S4Faq = () => {
                                 Frequently Asked <span className="border-b-2 border-[#8AFADE]    text-gradient  ">Question</span> <br />
 
                             </h1>
-                            <p className=' max-w-[35rem] leading-relaxed ' >Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus explicabo officia placeat, explicabo officia placeat, </p>
+                            <p className=' max-w-[35rem] leading-relaxed ' >Find answers to common questions about our services, policies, and more in our comprehensive Frequently Asked Questions (FAQ) section. </p>
 
                         </div>
 

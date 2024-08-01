@@ -16,7 +16,7 @@ const S5Contact = () => {
                                 How it <span className="border-b-2 border-[#8AFADE]    text-gradient  "> Works</span> <br />
 
                             </h1>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At inventore illo pariatur dolor laborum repellat.</p>
+                            <p>Get in touch with us for any inquiries, support, or feedback. We're here to help and answer your questions.</p>
 
                             <div>
                                 <form>
