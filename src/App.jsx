@@ -10,7 +10,10 @@ import Navbar from './Components/Navbar'
 import Footer from './Components/Footer'
 import { BrowserRouter, Routes, Route, useLocation, Navigate } from 'react-router-dom';
 import Headroom from 'react-headroom'
- 
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 const Loader = () => (
   <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
@@ -40,7 +43,7 @@ const Loader = () => (
         <div className="dot2" />
         <div className="dot2" />
       </div>
-      <div className="circle" />
+      {/* <div className="circle" /> */}
     </main>
 
   </div>
@@ -62,9 +65,8 @@ const MainLayout = ({ children }) => (
       <Headroom>
         <Navbar />
       </Headroom>
-      
-        {children}
-       <Footer/>
+      {children}
+      <Footer />
     </Suspense>
   </div>
 );
@@ -75,6 +77,15 @@ MainLayout.propTypes = {
 function App() {
 
   const [isLoading, setIsLoading] = useState(false);
+
+  // aos animation 
+  useEffect(() => {
+    AOS.init({
+      offset: 0,
+      duration: 1000,
+      once: false,
+    });
+  }, []);
 
   useEffect(() => {
     const delay = setTimeout(() => {

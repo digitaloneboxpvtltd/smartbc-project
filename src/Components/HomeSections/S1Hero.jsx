@@ -1,5 +1,6 @@
 
 import hero1 from "../../assets/images/hreo1.png"
+
 const S1Hero = () => {
     const openPDF = () => {
         window.open("/thecryptofactory_ppt.pdf", "_blank");
@@ -20,7 +21,7 @@ const S1Hero = () => {
 
                                 <div id="filler-main" className='flex items-center z-10  w-full gap-10 tablet:flex-col    '>
 
-                                    <div id="filler-right" className=' w-[60%] flex flex-col justify-center   gap-10 tablet:gap-5 tablet:w-[100%] tablet:text-center '>
+                                    <div data-aos="fade-left" id="filler-right" className=' w-[60%] flex flex-col justify-center   gap-10 tablet:gap-5 tablet:w-[100%] tablet:text-center '>
                                         <h2 className=" ilight   font-bold  text-gradient text-base  tracking-[7px]  w-fit  tablet:mx-auto tablet:phone:text-sm pointer-events-none uppercase " > We make you Profitable </h2>
                                         <h1 /*data-aos="fade-up"*/ className='text-6xl   desktop:text-5xl ibold uppercase desktop:tablet:text-4xl  desktop:tablet:phone:text-3xl  leading-snug desktop:leading-tight desktop:tablet:leading-normal desktop:tablet:phone:leading-normal '>
                                             Best <span className="text-gradient border-b-2 border-[#8AFADE]">Investments</span> <br />
@@ -43,7 +44,7 @@ const S1Hero = () => {
 
                                     </div>
 
-                                    <div /*data-aos="zoom-in" */ id="filler-left" className=' z-10 w-[45%] h-[100%] flex tablet:w-[80%] tablet:phone:w-[100%] justify-end  tablet:justify-center '>
+                                    <div data-aos="zoom-in"  id="filler-left" className=' z-10 w-[45%] h-[100%] flex tablet:w-[80%] tablet:phone:w-[100%] justify-end  tablet:justify-center '>
                                         <img loading="lazy"
                                             src={hero1}
                                             alt='VOIP  '

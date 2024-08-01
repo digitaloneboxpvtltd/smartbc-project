@@ -1,10 +1,12 @@
 
 // import logo1 from "../assets/logo/logo2.png"
+import logo from "../assets/logo/logo_hr_lht.png"
 import youtube from "../assets/socialmedia/YouTube.png"
 import twiter from "../assets/socialmedia/Twitter.png"
 import Telegram from "../assets/socialmedia/Telegram App.png"
 import Instagram from "../assets/socialmedia/Instagram.png"
 import Medium from "../assets/socialmedia/Medium.png"
+import { Link } from "react-router-dom"
 // import {Link} from "react-router-dom"
 
 const Footer = () => {
@@ -16,8 +18,8 @@ const Footer = () => {
 
                         <div className=" flex  flex-col gap-5 mb-6 max-w-[40%] tablet:max-w-[100%] tablet:items-center  md:mb-0">
                             <a href="" className="flex items-center">
-                                {/* <img src={logo1} className="h-[50px] me-3" alt="FlowBite Logo" /> */}
-                                <span className="self-center text-primary-gradient text-4xl font-bold whitespace-nowrap  text-white">Logo  </span>
+                                <img src={logo} className="h-[50px] me-3" alt="FlowBite Logo" />
+                                {/* <span className="self-center text-primary-gradient text-4xl font-bold whitespace-nowrap  text-white">Logo  </span> */}
                             </a>
                             <p className=" tablet:text-center text-white " > Stay updated with the latest developments by following us on social media and joining our community. For inquiries or support, reach out to our team via email.</p>
                             <div className="flex gap-5" >
@@ -34,10 +36,10 @@ const Footer = () => {
                                 <h2 className=" text-primary-gradient mb-6 text-sm font-semibold   uppercase text-white">Resources</h2>
                                 <ul className="  text-gray-400 font-medium">
                                     <li className="mb-4 tablet:text-center  ">
-                                        <a href="#Hero" className="unline  hover:underline " >home</a>
+                                        <Link to="/?=Hero" className="unline  hover:underline " >home</Link>
                                     </li>
                                     <li className="  tablet:text-center  " >
-                                        <a href="#About-us" className="hover:underline">about</a>
+                                        <Link to="/?=Service" className="hover:underline">Services</Link>
                                     </li>
                                 </ul>
                             </div>
@@ -45,10 +47,10 @@ const Footer = () => {
                                 <h2 className=" text-primary-gradient mb-6 text-sm font-semibold  uppercase text-white">Importent</h2>
                                 <ul className="  text-gray-400 font-medium">
                                     <li className="mb-4 tablet:text-center">
-                                        <a target="blank" href="https://aicumen-io.gitbook.io/aicumen-whitepaper" className="hover:underline ">White Paper</a>
+                                        <a target="blank" href="  " className="hover:underline ">Investment Plain</a>
                                     </li>
                                     <li className="  tablet:text-center  ">
-                                        <a href="#" className="hover:underline">Buy Now</a>
+                                        <a href="#" className="hover:underline">Log In</a>
                                     </li>
                                 </ul>
                             </div>

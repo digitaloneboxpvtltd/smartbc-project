@@ -4,7 +4,7 @@ import i1 from "../../assets/images/i1.png"
 const S3WorkingProcess = () => {
     return (
         <>
-            <div id="Services" className=" bg-black min-h-[90vh]" >
+            <div id="How_it_works" className=" bg-black min-h-[90vh]" >
                 <div className="min-h-fit    rounded-3xl py-10 w-full flex flex-col  ">
 
                     <div id=" ">
@@ -13,7 +13,7 @@ const S3WorkingProcess = () => {
 
                             <div id="filler-main" className='flex justify-evenly    items-center z-10  w-full tablet:gap-10 tablet:flex-col    '>
 
-                                <div /*data-aos="zoom-in" */ id="filler-left" className=' z-10   w-[40%]   h-[100%] flex justify-center tablet:w-[100%] tablet:phone:w-[100%]    tablet:justify-center '>
+                                <div  data-aos="zoom-in"   id="filler-left" className=' z-10   w-[40%]   h-[100%] flex justify-center tablet:w-[100%] tablet:phone:w-[100%]    tablet:justify-center '>
                                      
                                     
                                     <img src={workleft} className=" w-[25rem]" alt="" />
@@ -22,7 +22,7 @@ const S3WorkingProcess = () => {
                                 </div>
 
 
-                                <div id="filler-right" className='   w-[40%] flex flex-col justify-center   gap-10 tablet:gap-5 tablet:w-[100%]   '>
+                                <div data-aos="fade-right" id="filler-right" className='   w-[40%] flex flex-col justify-center   gap-10 tablet:gap-5 tablet:w-[100%]   '>
                                     <h2 className=" ilight   font-bold  text-gradient text-sm  tracking-[7px]  w-fit   tablet:phone:text-sm pointer-events-none uppercase " > working process</h2>
                                     <h1 /*data-aos="fade-up"*/ className='text-5xl   desktop:text-4xl ibold uppercase desktop:tablet:text-3xl  desktop:tablet:phone:text-2xl   leading-tight '>
                                         How it <span className="border-b-2 border-[#8AFADE]    text-gradient  ">Works</span> <br />
