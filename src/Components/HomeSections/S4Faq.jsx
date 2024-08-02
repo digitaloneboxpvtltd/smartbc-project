@@ -15,7 +15,7 @@ const S4Faq = () => {
             answer: (
                 <div className='' >
                     <p className="mb-2 text-gray-300 ">
-                        Smart BC Concept" is the world's first smart BC (Blockchain) contract, designed as an international community within a global decentralized ecosystem. It operates on a self-executing software algorithm that distributes rewards among community members based on specific conditions. This innovative model ensures that all participants have the opportunity to earn money, creating a fair and inclusive environment where everyone benefits from the system's rewards.
+                        Smart BC Concept" is the world's first smart BC ( Business Community) contract, designed as an international community within a global decentralized ecosystem. It operates on a self-executing software algorithm that distributes rewards among community members based on specific conditions. This innovative model ensures that all participants have the opportunity to earn money, creating a fair and inclusive environment where everyone benefits from the system's rewards.
 
 
                     </p>

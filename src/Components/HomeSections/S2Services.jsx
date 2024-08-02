@@ -15,7 +15,7 @@ const S2Services = () => {
 
                             <div id="filler-main" className='flex justify-evenly    items-center z-10  w-full tablet:gap-10 tablet:flex-col    '>
 
-                                <div data-aos="fade-left" id="filler-right" className='   w-[40%] flex flex-col justify-center   gap-10 tablet:gap-5 tablet:w-[100%]   '>
+                                <div data-aos="fade-left" id="filler-right" className='   w-[40%] flex flex-col justify-center   gap-10 tablet:gap-5 tablet:w-fit   '>
                                     <h2 className=" ilight   font-bold  text-gradient text-sm  tracking-[7px]  w-fit   tablet:phone:text-sm pointer-events-none uppercase " > our  Services </h2>
                                     <h1 /*data-aos="fade-up"*/ className='text-5xl   desktop:text-4xl ibold uppercase desktop:tablet:text-3xl  desktop:tablet:phone:text-2xl   leading-tight '>
                                         what we are <span className="border-b-2 border-[#8AFADE]    text-gradient  ">offering</span> <br />
@@ -23,14 +23,15 @@ const S2Services = () => {
                                     </h1>
 
 
-                                    <div /*data-aos="fade-up"*/ className="  max-w-[30rem]  ">
+                                    <div /*data-aos="fade-up"*/ className="   max-w-[30rem]   ">
 
                                         <p className="text-base leading-loose font-thin tablet:phone:text-sm  text-gray-300      tablet:phone:leading-relaxed">
-                                            At Smart BC Concept, we offer a comprehensive and innovative platform that integrates blockchain technology with a diverse range of high-quality products, including health, wellness, and digital services.
+                                            We offer a groundbreaking decentralized platform where you can achieve real financial growth. By using smart contracts, we guarantee automated and transparent rewards, ensuring a trustworthy and efficient system.
+
                                         </p>
                                         <br /><br />
                                         <p className="text-base leading-loose font-thin tablet:phone:text-sm  text-gray-300      tablet:phone:leading-relaxed">
-                                            Our offerings include access to a transparent and secure transaction system, comprehensive training and support, and a lucrative compensation plan that rewards direct sales, team-building, and leadership performance. 
+                                            Our approach supports your financial freedom and encourages active participation. Join us for a unique opportunity to benefit both personally and as part of a thriving community.
                                         </p>
                                     </div>
 

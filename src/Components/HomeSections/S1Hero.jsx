@@ -23,22 +23,23 @@ const S1Hero = () => {
 
                                     <div data-aos="fade-left" id="filler-right" className=' w-[60%] flex flex-col justify-center   gap-10 tablet:gap-5 tablet:w-[100%] tablet:text-center '>
                                         <h2 className=" ilight   font-bold  text-gradient text-base  tracking-[7px]  w-fit  tablet:mx-auto tablet:phone:text-sm pointer-events-none uppercase " > We make you Profitable </h2>
-                                        <h1 /*data-aos="fade-up"*/ className='text-6xl   desktop:text-5xl ibold uppercase desktop:tablet:text-4xl  desktop:tablet:phone:text-3xl  leading-snug desktop:leading-tight desktop:tablet:leading-normal desktop:tablet:phone:leading-normal '>
-                                            Best <span className="text-gradient border-b-2 border-[#8AFADE]">Investments</span> <br />
-                                            Plan For World Wide
+                                        <h1 /*data-aos="fade-up"*/ className='text-5xl   desktop:text-5xl ibold uppercase desktop:tablet:text-4xl  desktop:tablet:phone:text-3xl  leading-snug desktop:leading-tight desktop:tablet:leading-normal desktop:tablet:phone:leading-normal '>
+                                             
+                                            THE FIRST BEST <span className="text-gradient border-b-2 border-[#8AFADE]">BUSINESS COMMUNITY </span> <br />
+                                            PLAN WORLDWIDE
                                         </h1>
 
 
                                         <div /*data-aos="fade-up"*/ className="  max-w-2xl  ">
 
                                             <p className="text-base leading-relaxed font-thin tablet:phone:text-sm  text-gray-300 tablet:phone:leading-relaxed  tablet:text-center">
-                                                Smart BC Concept integrates blockchain with health, wellness, and digital products, offering secure transactions, training, and a rewarding compensation plan for personal and professional growth in a supportive global community.
+                                                Smart BC Concept is a global decentralized platform designed for everyone to earn. With smart contracts ensuring automated and transparent rewards, users are empowered to achieve financial growth and freedom. By actively participating and making timely payments, the entire community benefits continuously.
                                             </p>
                                         </div>
 
                                         <div className="flex tablet:justify-center " >
                                             <div onClick={openPDF} className='rbtn rounded-full'>
-                                                <span className="text rounded-full px-5 py-3 ">Investment Plan</span>
+                                                <span className="text rounded-full px-5 py-3 ">Join Community</span>
                                             </div>
                                         </div>
 

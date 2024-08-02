@@ -14,9 +14,9 @@ const S3WorkingProcess = () => {
                         <div id="listing" className='   relative min-h-[30vh]   px-10 py-10 tablet:px-10     tablet:phone:px-5  flex flex-col gap-20'>
 
 
-                            <div id="filler-main" className='flex justify-evenly    items-center z-10  w-full tablet:gap-10 tablet:flex-col    '>
+                            <div id="filler-main" className='flex justify-evenly    items-center z-10  w-full laptop:gap-10 laptop:flex-col    '>
 
-                                <div data-aos="zoom-in" id="filler-left" className=' z-10   w-[40%]   h-[100%] flex justify-center tablet:w-[100%] tablet:phone:w-[100%]    tablet:justify-center '>
+                                <div data-aos="zoom-in" id="filler-left" className=' z-10   w-[40%]   h-[100%] flex justify-center laptop:tablet:w-[100%] laptop:w-[100%]    laptop:tablet:justify-center '>
 
 
                                     <img src={workleft} className=" w-[25rem]" alt="" />
@@ -25,7 +25,7 @@ const S3WorkingProcess = () => {
                                 </div>
 
 
-                                <div data-aos="fade-right" id="filler-right" className='   w-[40%] flex flex-col justify-center   gap-10 tablet:gap-5 tablet:w-[100%]   '>
+                                <div data-aos="fade-right" id="filler-right" className='   w-[40%] flex flex-col justify-center   gap-10 tablet:gap-5 laptop:w-fit   '>
                                     <h2 className=" ilight   font-bold  text-gradient text-sm  tracking-[7px]  w-fit   tablet:phone:text-sm pointer-events-none uppercase " > working process</h2>
                                     <h1 /*data-aos="fade-up"*/ className='text-5xl   desktop:text-4xl ibold uppercase desktop:tablet:text-3xl  desktop:tablet:phone:text-2xl   leading-tight '>
                                         How it <span className="border-b-2 border-[#8AFADE]    text-gradient  ">Works</span> <br />
@@ -37,7 +37,7 @@ const S3WorkingProcess = () => {
 
                                         <p className="text-base leading-loose font-thin tablet:phone:text-sm  text-gray-300      tablet:phone:leading-relaxed">
 
-                                            In the Smart BC Concept, you begin by joining our network, selecting a membership level that aligns with your goals. You then explore our extensive range of high-quality products, gaining firsthand experience to confidently share them with your network through various marketing channels
+                                            Smart BC Concept is a global decentralized platform designed to empower every participant. Through a unique 100% distribution model, users earn rewards by purchasing slots and engaging in the system. Smart contracts ensure automated, transparent reward distribution and referral commissions, fostering trust and efficiency. By actively participating and making timely payments, users unlock continuous financial growth, creating a thriving community where everyone benefits.
                                         </p>
                                         <br /><br />
                                         <div className="text-base leading-loose font-thin flex flex-wrap gap-3 tablet:phone:text-sm  text-gray-300      tablet:phone:leading-relaxed"
@@ -57,8 +57,9 @@ const S3WorkingProcess = () => {
                                                 <img src={j2} className=" h-fit w-[2rem]" alt="" />
                                                 <div className=" space-y-2 " >
 
-                                                    <h2 className="  text-xl font-bold" >Explore Our Products</h2>
-                                                    <p className=" ilight text-sm font-thin " >Gain access to our wide range of high-quality products, including health, wellness, and digital services.
+                                                    <h2 className="  text-xl font-bold" >Explore Our Concept
+</h2>
+                                                    <p className=" ilight text-sm font-thin " >Discover how our platform can drive your financial growth and empower your success.
                                                     </p>
                                                 </div>
                                             </div>
@@ -66,9 +67,9 @@ const S3WorkingProcess = () => {
                                                 <img src={j3} className=" h-fit w-[2rem]" alt="" />
                                                 <div className=" space-y-2 " >
 
-                                                    <h2 className="  text-xl font-bold" >Share the Products
+                                                    <h2 className="  text-xl font-bold" >Share the Concept
                                                     </h2>
-                                                    <p className=" ilight text-sm font-thin " >Introduce our products to your network through social media, personal contacts, and other marketing channels.
+                                                    <p className=" ilight text-sm font-thin " >Introduce our concept to your network through social media, personal contacts, and other marketing channels.
                                                     </p>
                                                 </div>
                                             </div>
