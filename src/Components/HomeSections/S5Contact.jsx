@@ -13,7 +13,7 @@ const S5Contact = () => {
 
                         <div data-aos="zoom-in" className="bg-[#79D8C1] bg-opacity-10 rounded-lg  flex flex-col gap-5   p-10 phone:px-5 text-gray-200">
                             <h1 /*data-aos="fade-up"*/ className='text-3xl   desktop:text-2xl ibold uppercase desktop:tablet:text-xl     leading-tight '>
-                                How it <span className="border-b-2 border-[#8AFADE]    text-gradient  "> Works</span> <br />
+                                Get In <span className="border-b-2 border-[#8AFADE]    text-gradient  "> Touch</span> <br />
 
                             </h1>
                             <p>Get in touch with us for any inquiries, support, or feedback. We're here to help and answer your questions.</p>

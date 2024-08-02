@@ -3,7 +3,7 @@ import hero1 from "../../assets/images/hreo1.png"
 
 const S1Hero = () => {
     const openPDF = () => {
-        window.open("/thecryptofactory_ppt.pdf", "_blank");
+        window.open("  ", "_blank");
     };
     return (
         <>
