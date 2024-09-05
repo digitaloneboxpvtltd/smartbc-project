@@ -46,20 +46,20 @@ const Navbar = () => {
 
                     <a href="/" onClick={closeMenu}>
                         <div className="flex items-center space-x-3 rtl:space-x-reverse">
-                            <img loading="lazy" src={logo}  className=' w-[9rem] phone:w-[6rem] h-auto '  alt="VOIP" />
+                            <img loading="lazy" src={logo}  className=' w-[9rem] phone:w-[7rem] h-auto '  alt="VOIP" />
                             {/* <h1 className=' text-4xl font-bold font-outfit  text-primary-gradient phone:text-xl ' >Logo</h1> */}
                         </div>
                     </a>
 
 
                     <div className="flex  md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-                        <div className=' flex gap-3 phone:gap-1 ' >
+                        <div className=' flex gap-3 phone:gap-1  items-center' >
                             
-                            <Link to="/" className='rbtn rounded-full'>
-                                <span className="text rounded-full px-5 py-3 ">Sign In</span>
+                            <Link to="/" className='rbtn h-fit rounded-full'>
+                                <span className="text rounded-full px-5 py-2 phone:py-1 phone:px-3 ">Sign In</span>
                             </Link>
-                            <Link to="/ " className='rbtn rounded-full'>
-                                <span className="text rounded-full px-5 py-3 ">Sign Up</span>
+                            <Link to="/ " className='rbtn h-fit rounded-full'>
+                                <span className="text rounded-full px-5 py-2 phone:py-1 phone:px-3 ">Sign Up</span>
                             </Link>
 
                              

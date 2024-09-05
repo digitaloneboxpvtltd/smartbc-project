@@ -47,7 +47,7 @@ const S4Faq = () => {
             ),
         },
         {
-            question: '  Q4.How does Smart BC Concept handle funds and ensure the security of my income  ?',
+            question: '  Q4. How does Smart BC Concept handle funds and ensure the security of my income  ?',
             answer: (
                 <div className='' >
                     <p className="mb-2 text-gray-300 ">
@@ -81,7 +81,7 @@ const S4Faq = () => {
             ),
         },
         {
-            question: '  Q7. What is decentralization? ',
+            question: '  Q7. What is Decentralization? ',
             answer: (
                 <div className='' >
                     <p className="mb-2 text-gray-300 ">

@@ -36,7 +36,7 @@ const Footer = () => {
                                 <h2 className=" text-primary-gradient mb-6 text-sm font-semibold   uppercase text-white">Resources</h2>
                                 <ul className="  text-gray-400 font-medium">
                                     <li className="mb-4 tablet:text-center  ">
-                                        <Link to="/?=Hero" className="unline  hover:underline " >home</Link>
+                                        <Link to="/?=Hero" className="unline  hover:underline " >Home</Link>
                                     </li>
                                     <li className="  tablet:text-center  " >
                                         <Link to="/?=Service" className="hover:underline">Services</Link>
@@ -47,7 +47,7 @@ const Footer = () => {
                                 <h2 className=" text-primary-gradient mb-6 text-sm font-semibold  uppercase text-white">Importent</h2>
                                 <ul className="  text-gray-400 font-medium">
                                     <li className="mb-4 tablet:text-center">
-                                        <a target="blank" href="  " className="hover:underline ">Investment Plain</a>
+                                        <a target="blank" href="  " className="hover:underline ">Sign Up</a>
                                     </li>
                                     <li className="  tablet:text-center  ">
                                         <a href="#" className="hover:underline">Log In</a>

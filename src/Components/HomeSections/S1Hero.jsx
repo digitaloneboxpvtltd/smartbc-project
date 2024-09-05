@@ -25,8 +25,8 @@ const S1Hero = () => {
                                         <h2 className=" ilight   font-bold  text-gradient text-base  tracking-[7px]  w-fit  tablet:mx-auto tablet:phone:text-sm pointer-events-none uppercase " > We make you Profitable </h2>
                                         <h1 /*data-aos="fade-up"*/ className='text-5xl   desktop:text-5xl ibold uppercase desktop:tablet:text-4xl  desktop:tablet:phone:text-3xl  leading-snug desktop:leading-tight desktop:tablet:leading-normal desktop:tablet:phone:leading-normal '>
                                              
-                                            THE FIRST BEST <span className="text-gradient border-b-2 border-[#8AFADE]">BUSINESS COMMUNITY </span> <br />
-                                            PLAN WORLDWIDE
+                                            THE FIRST SMART <span className="text-gradient border-b-2 border-[#8AFADE]">BUSINESS COMMUNITY </span> <br />
+                                            CONCEPT WORLDWIDE
                                         </h1>
 
 
