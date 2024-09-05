@@ -22,8 +22,11 @@ const S1Hero = () => {
                                 <div id="filler-main" className='flex items-center z-10  w-full gap-10 tablet:flex-col    '>
 
                                     <div data-aos="fade-left" id="filler-right" className=' w-[60%] flex flex-col justify-center   gap-10 tablet:gap-5 tablet:w-[100%] tablet:text-center '>
-                                        <h2 className=" ilight   font-bold  text-gradient text-base  tracking-[7px]  w-fit  tablet:mx-auto tablet:phone:text-sm pointer-events-none uppercase " > We make you Profitable </h2>
-                                        <h1 /*data-aos="fade-up"*/ className='text-5xl   desktop:text-5xl ibold uppercase desktop:tablet:text-4xl  desktop:tablet:phone:text-3xl  leading-snug desktop:leading-tight desktop:tablet:leading-normal desktop:tablet:phone:leading-normal '>
+                                        <h2 className=" ilight   font-bold  text-gradient text-base  tracking-[7px]  w-fit  tablet:mx-auto tablet:phone:text-[12px] pointer-events-none uppercase  " > We make you Profitable </h2>
+                                        <h1 /*data-aos="fade-up"*/ className='text-5xl   desktop:text-5xl ibold uppercase desktop:tablet:text-4xl  desktop:tablet:phone:text-2xl  leading-snug desktop:leading-tight desktop:tablet:leading-normal 
+                                        desktop:tablet:phone:leading-normal 
+                                         
+                                        '>
                                              
                                             THE FIRST SMART <span className="text-gradient border-b-2 border-[#8AFADE]">BUSINESS COMMUNITY </span> <br />
                                             CONCEPT WORLDWIDE
@@ -32,7 +35,7 @@ const S1Hero = () => {
 
                                         <div /*data-aos="fade-up"*/ className="  max-w-2xl  ">
 
-                                            <p className="text-base leading-relaxed font-thin tablet:phone:text-sm  text-gray-300 tablet:phone:leading-relaxed  tablet:text-center">
+                                            <p className="text-base leading-relaxed font-thin tablet:phone:text-sm  text-gray-300 tablet:phone:leading-snug  tablet:text-center">
                                                 Smart BC Concept is a global decentralized platform designed for everyone to earn. With smart contracts ensuring automated and transparent rewards, users are empowered to achieve financial growth and freedom. By actively participating and making timely payments, the entire community benefits continuously.
                                             </p>
                                         </div>
