@@ -73,9 +73,7 @@ const S4Faq = () => {
             answer: (
                 <div className='' >
                     <p className="mb-2 text-gray-300 ">
-                        There are no significant risks associated with the Smart BC Concept platform. Your initial investment can be recovered with just three referrals. It operates on a blockchain smart contract with a transparent, publicly available code. All earnings go directly to your personal wallet, ensuring immediate access. Remember, protecting your wallet and private keys is vital for security.
-
-
+                        There are no significant risks associated with the Smart BC Concept platform. Your initial investment can be recovered with just four referrals. It operates on a blockchain smart contract with transparent operations. All earnings go directly to your personal wallet, ensuring immediate access. Remember, protecting your wallet and private keys is vital for security.
                     </p>
                 </div>
             ),
@@ -88,6 +86,40 @@ const S4Faq = () => {
 
                         Decentralization means spreading control and decision-making away from one central authority. In blockchain, this creates networks where no single party has all the power, leading to greater transparency, security, and trust among participants.
 
+
+                    </p>
+                </div>
+            ),
+        },
+        {
+            question: '  Q8. How long will it take to receive BC rewards?',
+            answer: (
+                <div className='' >
+                    <p className="mb-2 text-gray-300 ">
+
+                        The time it takes to receive BC rewards depends entirely on the growth of the community. As the community grows, BC rewards are distributed. This process can vary in speed, so please be patient and understand that it may take time as it's a community-driven process.
+
+                    </p>
+                </div>
+            ),
+        },
+        {
+            question: '  Q9. Is It Necessary to Have Direct Joining to Receive BC Rewards? ',
+            answer: (
+                <div className='' >
+                    <p className="mb-2 text-gray-300 ">
+                        No, direct joinings are not required to receive BC rewards. BC rewards are distributed based on global community growth, so your rewards depend on the overall participation in the platform, not just your direct referrals.
+
+                    </p>
+                </div>
+            ),
+        },
+        {
+            question: "  Q10. What if I can't make any referrals? Can I still earn money?",
+            answer: (
+                <div className='' >
+                    <p className="mb-2 text-gray-300 ">
+                        Absolutely! Even if you can't make referrals, you can still earn money with the Smart BC Concept platform. Once you buy a slot, you'll automatically start receiving BC rewards, regardless of whether you refer anyone. So, your investment can grow, and you can earn profits without needing to bring others on board.
 
                     </p>
                 </div>
@@ -125,13 +157,7 @@ const S4Faq = () => {
                         <div className=' flex flex-col gap-10 '>
 
                             {/* faq 1  */}
-                            <div className='z-20 flex flex-col items-center' >
-
-
-
-
-
-
+                            <div className='z-10 flex flex-col items-center' >
                                 <div className='md:w-[60%]     w-[90%] rounded-t-xl ' id="accordion-collapse" data-accordion="collapse">
                                     {accordionItems.map((item, index) => (
                                         <div data-aos="zoom-in" key={index}>

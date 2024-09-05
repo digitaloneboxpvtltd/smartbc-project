@@ -7,9 +7,15 @@ import Telegram from "../assets/socialmedia/Telegram App.png"
 import Instagram from "../assets/socialmedia/Instagram.png"
 import Medium from "../assets/socialmedia/Medium.png"
 import { Link } from "react-router-dom"
+import Model from "./Model"
+import { useModal } from "./ModalContext"
+
 // import {Link} from "react-router-dom"
 
 const Footer = () => {
+
+    const { modalOpen, setModalOpen } = useModal();
+
     return (
         <>
             <footer className="  bg-[#101010] z-10  rounded-t-2xl ">
@@ -61,7 +67,24 @@ const Footer = () => {
                                         <a href="#" className="hover:underline">Privacy Policy</a>
                                     </li>
                                     <li className="  tablet:text-center  ">
-                                        <a href="#" className="hover:underline">Terms &amp; Conditions</a>
+                                        {/* <a href="#" className="hover:underline">Terms &amp; Conditions</a> */}
+
+                                        <button onClick={
+                                            () => {
+                                                if (modalOpen === true)
+                                                {
+                                                    setModalOpen(false);
+                                                }
+                                                else
+                                                {
+                                                     setModalOpen(true);
+                                                }
+                                            }
+                                        } className="hover:underline">Disclaimer</button>
+
+                                        {modalOpen ? <Model /> : ""}
+
+
                                     </li>
                                 </ul>
                             </div>

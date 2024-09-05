@@ -13,6 +13,7 @@ import Headroom from 'react-headroom'
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { ModalProvider } from './Components/ModalContext';
 
 
 const Loader = () => (
@@ -66,6 +67,7 @@ const MainLayout = ({ children }) => (
         <Navbar />
       </Headroom>
       {children}
+
       <Footer />
     </Suspense>
   </div>
@@ -98,13 +100,17 @@ function App() {
 
   return (
     <>
+
+
       <BrowserRouter>
         <ScrollToTop />
-        <Routes>
-          <Route path="*" element={<Navigate to="/" />} />
-          <Route path="/" element={<MainLayout> <HomePage />  </MainLayout>} />
-          <Route path="/l" element={<MainLayout>  <Loader />  </MainLayout>} />
-        </Routes>
+        <ModalProvider>
+          <Routes>
+            <Route path="*" element={<Navigate to="/" />} />
+            <Route path="/" element={<MainLayout> <HomePage />  </MainLayout>} />
+            <Route path="/l" element={<MainLayout>  <Loader />  </MainLayout>} />
+          </Routes>
+        </ModalProvider>
       </BrowserRouter>
     </>
   )
