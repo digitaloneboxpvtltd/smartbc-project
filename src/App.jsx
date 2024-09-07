@@ -61,7 +61,7 @@ const ScrollToTop = () => {
 };
 
 const MainLayout = ({ children }) => (
-  <div className='flex flex-col mx-auto min-w-screen max-w-[1600px]'>
+  <div className='flex overflow-x-hidden flex-col mx-auto min-w-screen max-w-[1600px]'>
     <Suspense fallback={<Loader />}>
       <Headroom>
         <Navbar />
