@@ -43,7 +43,7 @@ const Navbar = () => {
                 className={` bg-black  w-full z-10 overflow-x-hidden   top-0 start-0 border-b border-none dark:border-gray-600`}
             >
                 <div className=" relative max-w-full   flex flex-wrap items-center justify-between mx-auto p-4 px-4 md:p-4 md:px-8">
-
+                    
                     <a href="/" onClick={closeMenu}>
                         <div className="flex items-center space-x-3 rtl:space-x-reverse">
                             <img loading="lazy" src={logo} className=' w-[9rem] phone:w-[7rem] h-auto ' alt="VOIP" />
@@ -51,12 +51,9 @@ const Navbar = () => {
                         </div>
                     </a>
 
+                    
 
-                    <div className="flex  md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-
-
-
-
+                    {/* <div className="flex  md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse"> */}
                         <button
                             onClick={toggleNav}
                             type="button"
@@ -81,7 +78,7 @@ const Navbar = () => {
                                 />
                             </svg>
                         </button>
-                    </div>
+                    {/* </div> */}
 
                     <div
                         id="navbar-sticky1"
@@ -90,64 +87,49 @@ const Navbar = () => {
                     >
                         <ul className="   navcar  flex  items-center   flex-col p-4   md:py-1.5   mt-4 font-medium border border-[--primary-color]  md:rounded-[50px] rounded-lg   md:space-x-[3vmax] rtl:space-x-reverse md:flex-row md:mt-0 md:border-0   text-white tablet:bg-gray-900    ">
 
-                            <li className='md:border-none border-b-[1px]  border-gradient '>
+                            <li className='md:border-none w-full  border-b-[1px]  border-gradient '>
                                 <Link to="/" onClick={closeMenu}>
                                     <div className=" font-normal block py-2 px-3 text-white rounded hover:bg-gray-700 md:hover:bg-transparent md:p-0  dark:border-gray-700 hover:text-[#8AFADE] font-outfit   ">Home</div>
                                 </Link>
                             </li>
 
-                            <li className='md:border-none border-b-[1px] border-gradient '>
+                            <li className='md:border-none w-full  border-b-[1px] border-gradient '>
                                 <Link to="/?=Service" onClick={closeMenu}  >
                                     <div className=" font-normal block py-2 px-3 text-white rounded hover:bg-gray-700 md:hover:bg-transparent md:p-0       dark:border-gray-700 hover:text-[#8AFADE] font-outfit ">Service</div>
                                 </Link>
                             </li>
 
-                            <li className='md:border-none border-b-[1px] border-gradient '>
+                            <li className='md:border-none w-full  border-b-[1px] border-gradient '>
                                 <Link to="/?=FAQ" onClick={closeMenu}>
                                     <div className=" font-normal block py-2 px-3 text-white rounded hover:bg-gray-700 md:hover:bg-transparent md:p-0       dark:border-gray-700 hover:text-[#8AFADE] font-outfit ">FAQ</div>
                                 </Link>
                             </li>
-                            <li className='md:border-none border-b-[1px] border-gradient '>
+                            <li className='md:border-none w-full  border-b-[1px] border-gradient '>
                                 <Link to="/?=How_it_works" onClick={closeMenu}>
                                     <div className=" font-normal block py-2 px-3 text-white rounded hover:bg-gray-700 md:hover:bg-transparent md:p-0       dark:border-gray-700 hover:text-[#8AFADE] font-outfit ">How it works</div>
                                 </Link>
                             </li>
-                            <li className='md:border-none border-b-[1px] border-gradient '>
+                            <li className='md:border-none w-full  border-b-[1px] border-gradient '>
                                 <Link to="/?=Contact" onClick={closeMenu}>
                                     <div className=" font-normal block py-2 px-3 text-white rounded hover:bg-gray-700 md:hover:bg-transparent md:p-0       dark:border-gray-700 hover:text-[#8AFADE] font-outfit ">Contact</div>
                                 </Link>
                             </li>
 
-                            <li className=' flex gap-3 phone:gap-1     items-center' >
-
-
-
-                                {/* <li className='md:border-none border-b-[1px] border-gradient '> */}
-                                <Link to="/" className='rbtn h-fit rounded-full'>
+                            <li className='md:border-none w-full  border-b-[1px] border-gradient flex gap-3 phone:gap-1 tablet:py-3    ' >
+ 
+                                <Link to="/" onClick={closeMenu} className='rbtn h-fit rounded-full'>
                                     <span className="text rounded-full px-5 py-2 phone:py-1 phone:px-3 ">Sign In</span>
                                 </Link>
-                                {/* </li> */}
-                                {/* <li className='md:border-none border-b-[1px] border-gradient '> */}
-                                <Link to="/ " className='rbtn h-fit rounded-full'>
+                                 
+                                <Link to="/" onClick={closeMenu} className='rbtn h-fit rounded-full'>
                                     <span className="text rounded-full px-5 py-2 phone:py-1 phone:px-3 ">Sign Up</span>
                                 </Link>
-                                {/* </li> */}
 
                             </li>
-
-
-
                         </ul>
-
                     </div>
                 </div>
             </nav>
-
-
-
-
-
-
 
 
 

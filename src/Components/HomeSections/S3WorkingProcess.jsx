@@ -44,7 +44,7 @@ const S3WorkingProcess = () => {
                                         >
 
                                             <div className=" flex p-2 max-w-[45%]  laptop:max-w-[100%]    gap-3  " >
-                                                <img src={j1} className=" h-fit w-[2rem]" alt="" />
+                                                <img src={j1} className=" h-[2rem] w-[2rem]" alt="" />
                                                 <div className=" space-y-2 " >
 
                                                     <h2 className="  text-xl font-bold" >Join the Network
@@ -54,7 +54,7 @@ const S3WorkingProcess = () => {
                                                 </div>
                                             </div>
                                             <div className=" flex p-2 max-w-[45%] laptop:max-w-[100%]      gap-3  " >
-                                                <img src={j2} className=" h-fit w-[2rem]" alt="" />
+                                                <img src={j2} className=" h-[2rem] w-[2rem]" alt="" />
                                                 <div className=" space-y-2 " >
 
                                                     <h2 className="  text-xl font-bold" >Explore Our Concept
@@ -64,7 +64,7 @@ const S3WorkingProcess = () => {
                                                 </div>
                                             </div>
                                             <div className=" flex p-2 max-w-[45%] laptop:max-w-[100%]      gap-3  " >
-                                                <img src={j3} className=" h-fit w-[2rem]" alt="" />
+                                                <img src={j3} className=" h-[2rem] w-[2rem]" alt="" />
                                                 <div className=" space-y-2 " >
 
                                                     <h2 className="  text-xl font-bold" >Share the Concept
@@ -74,7 +74,7 @@ const S3WorkingProcess = () => {
                                                 </div>
                                             </div>
                                             <div className=" flex p-2 max-w-[45%] laptop:max-w-[100%]      gap-3  " >
-                                                <img src={j4} className=" h-fit w-[2rem]" alt="" />
+                                                <img src={j4} className=" h-[2rem] w-[2rem]" alt="" />
                                                 <div className=" space-y-2 " >
 
                                                     <h2 className="  text-xl font-bold" >Achieve Financial Freedom
