@@ -89,29 +89,29 @@ const Navbar = () => {
 
                             <li className='md:border-none w-full  border-b-[1px]  border-gradient '>
                                 <Link to="/" onClick={closeMenu}>
-                                    <div className=" font-normal block py-2 px-3 text-white rounded hover:bg-gray-700 md:hover:bg-transparent md:p-0  dark:border-gray-700 hover:text-[#8AFADE] font-outfit   ">Home</div>
+                                    <div className=" font-normal block text-nowrap py-2 px-3 text-white rounded hover:bg-gray-700 md:hover:bg-transparent md:p-0  dark:border-gray-700 hover:text-[#8AFADE] font-outfit   ">Home</div>
                                 </Link>
                             </li>
 
                             <li className='md:border-none w-full  border-b-[1px] border-gradient '>
                                 <Link to="/?=Service" onClick={closeMenu}  >
-                                    <div className=" font-normal block py-2 px-3 text-white rounded hover:bg-gray-700 md:hover:bg-transparent md:p-0       dark:border-gray-700 hover:text-[#8AFADE] font-outfit ">Service</div>
+                                    <div className=" font-normal block text-nowrap py-2 px-3 text-white rounded hover:bg-gray-700 md:hover:bg-transparent md:p-0       dark:border-gray-700 hover:text-[#8AFADE] font-outfit ">Service</div>
                                 </Link>
                             </li>
 
                             <li className='md:border-none w-full  border-b-[1px] border-gradient '>
                                 <Link to="/?=FAQ" onClick={closeMenu}>
-                                    <div className=" font-normal block py-2 px-3 text-white rounded hover:bg-gray-700 md:hover:bg-transparent md:p-0       dark:border-gray-700 hover:text-[#8AFADE] font-outfit ">FAQ</div>
+                                    <div className=" font-normal block text-nowrap py-2 px-3 text-white rounded hover:bg-gray-700 md:hover:bg-transparent md:p-0       dark:border-gray-700 hover:text-[#8AFADE] font-outfit ">FAQ</div>
                                 </Link>
                             </li>
                             <li className='md:border-none w-full  border-b-[1px] border-gradient '>
                                 <Link to="/?=How_it_works" onClick={closeMenu}>
-                                    <div className=" font-normal block py-2 px-3 text-white rounded hover:bg-gray-700 md:hover:bg-transparent md:p-0       dark:border-gray-700 hover:text-[#8AFADE] font-outfit ">How it works</div>
+                                    <div className=" font-normal block text-nowrap py-2 px-3 text-white rounded hover:bg-gray-700 md:hover:bg-transparent md:p-0       dark:border-gray-700 hover:text-[#8AFADE] font-outfit ">How it works</div>
                                 </Link>
                             </li>
                             <li className='md:border-none w-full  border-b-[1px] border-gradient '>
                                 <Link to="/?=Contact" onClick={closeMenu}>
-                                    <div className=" font-normal block py-2 px-3 text-white rounded hover:bg-gray-700 md:hover:bg-transparent md:p-0       dark:border-gray-700 hover:text-[#8AFADE] font-outfit ">Contact</div>
+                                    <div className=" font-normal block text-nowrap py-2 px-3 text-white rounded hover:bg-gray-700 md:hover:bg-transparent md:p-0       dark:border-gray-700 hover:text-[#8AFADE] font-outfit ">Contact</div>
                                 </Link>
                             </li>
 
