@@ -36,11 +36,11 @@ const Model = () => {
                                         </p>
                                         <h2 className="text-xl font-semibold mb-2">Security Reminder:</h2>
                                         <p className="mb-4">
-                                            Please use only our official website: <a href="https://smartbcconcept.io" className="text-blue-500 underline">smartbcconcept.io</a>. Be cautious of fake sites.
+                                            Please use only our official website: <a href="http://smartbcconcept.io" className="text-blue-500 underline">smartbcconcept.io</a> & <a href="http://smartbcconcept.net" className="text-blue-500 underline">smartbcconcept.net</a> Be cautious of fake sites.
                                         </p>
                                         <h3 className="text-lg font-semibold mb-2">Steps to Verify:</h3>
                                         <ul className="list-disc pl-5 mb-4">
-                                            <li><strong>URL Check:</strong> Ensure it’s <a href="https://smartbcconcept.io" className="text-blue-500 underline">smartbcconcept.io</a>.</li>
+                                            <li><strong>URL Check:</strong> Ensure it’s <a href="http://smartbcconcept.io" className="text-blue-500 underline">smartbcconcept.io</a> & <a href="http://smartbcconcept.net" className="text-blue-500 underline">smartbcconcept.net</a></li>
                                             <li><strong>Secure Connection:</strong> Look for "https://" and the padlock icon (🔒).</li>
                                             <li><strong>Official Logo:</strong> Confirm our logo is present.</li>
                                         </ul>

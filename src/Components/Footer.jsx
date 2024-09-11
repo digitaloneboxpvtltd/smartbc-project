@@ -15,6 +15,7 @@ import { useModal } from "./ModalContext"
 const Footer = () => {
 
     const { modalOpen, setModalOpen } = useModal();
+    const currentYear = new Date().getFullYear();
 
     return (
         <>
@@ -53,10 +54,10 @@ const Footer = () => {
                                 <h2 className=" text-primary-gradient mb-6 text-sm font-semibold  uppercase text-white">Importent</h2>
                                 <ul className="  text-gray-400 font-medium">
                                     <li className="mb-4 tablet:text-center">
-                                        <a target="blank" href="  " className="hover:underline ">Sign Up</a>
+                                        <a target="blank" href="https://smartbcconcept.net" className="hover:underline ">Sign Up</a>
                                     </li>
                                     <li className="  tablet:text-center  ">
-                                        <a href="#" className="hover:underline">Log In</a>
+                                        <a target="blank" href="https://smartbcconcept.net/MemberPanel/Login.aspx" className="hover:underline">Log In</a>
                                     </li>
                                 </ul>
                             </div>
@@ -92,7 +93,8 @@ const Footer = () => {
                     </div>
                     <hr className="my-6  border-gradient sm:mx-auto border-gray-700 lg:my-8" />
                     <div className="sm:flex sm:items-center tablet:text-center sm:justify-between">
-                        <span className="text-sm   sm:text-center  text-gray-400">© 2024 <a href="" className="hover:underline">Smart BC Concept</a>. All Rights Reserved.
+     
+                        <span className="text-sm   sm:text-center  text-gray-400">© {currentYear} <a href="" className="hover:underline">Smart BC Concept</a>. All Rights Reserved.
                         </span>
                         <div className="flex mt-4 sm:justify-center sm:mt-0">
 

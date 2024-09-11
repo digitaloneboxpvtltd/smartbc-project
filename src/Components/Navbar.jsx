@@ -38,34 +38,28 @@ const Navbar = () => {
     return (
 
         <>
-
             <nav
-                className={` bg-black  w-full z-10 overflow-x-hidden   top-0 start-0 border-b border-none dark:border-gray-600`}
-            >
+                className={` bg-black  w-full z-10 overflow-x-hidden   top-0 start-0 border-b border-none dark:border-gray-600`}>
                 <div className=" relative max-w-full   flex flex-wrap items-center justify-between mx-auto p-4 px-4 md:p-4 md:px-8">
-
                     <a href="/" onClick={closeMenu}>
                         <div className="flex items-center space-x-3 rtl:space-x-reverse">
-                            <img loading="lazy" src={logo}  className=' w-[9rem] phone:w-[5.5rem] h-auto '  alt="VOIP" />
+                            <img loading="lazy" src={logo}  className=' w-[9rem] phone:w-[5.5rem] h-auto '  alt="smartBC" />
                             {/* <h1 className=' text-4xl font-bold font-outfit  text-primary-gradient phone:text-xl ' >Logo</h1> */}
                         </div>
                     </a>
 
 
                     <div className="flex  md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+                        
                         <div className=' flex gap-3 phone:gap-1  items-center' >
                             
-                            <Link to="/" className='rbtn h-fit rounded-full'>
+                            <a target="blank" href="https://smartbcconcept.net/MemberPanel/Login.aspx" className='rbtn h-fit rounded-full'>
                                 <span className="text rounded-full px-5 py-2 phone:py-1 phone:px-2 phone:text-sm ">Sign In</span>
-                            </Link>
-                            <Link to="/ " className='rbtn h-fit rounded-full'>
+                            </a>
+                            <a target="blank" href="https://smartbcconcept.net/" className='rbtn h-fit rounded-full'>
                                 <span className="text rounded-full px-5 py-2 phone:py-1 phone:px-2  phone:text-sm ">Sign Up</span>
-                            </Link>
-
-                             
+                            </a>  
                         </div>
-
-
 
                         <button
                             onClick={toggleNav}
