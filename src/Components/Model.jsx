@@ -19,6 +19,10 @@ const Model = () => {
         setModalOpen(false);
     };
 
+
+
+    
+
     return (
         <>
             <div className=' ' >
