@@ -14,6 +14,7 @@ import Headroom from 'react-headroom'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { ModalProvider } from './Components/ModalContext';
+import MaintainenceModel from './Components/MaintainenceModel';
 
 
 const Loader = () => (
@@ -66,6 +67,7 @@ const MainLayout = ({ children }) => (
       <Headroom>
         <Navbar />
       </Headroom>
+      <MaintainenceModel />
       {children}
 
       <Footer />
@@ -105,6 +107,7 @@ function App() {
         <ScrollToTop />
         <ModalProvider>
           <Routes>
+       
             <Route path="*" element={<Navigate to="/" />} />
             <Route path="/" element={<MainLayout> <HomePage />  </MainLayout>} />
             <Route path="/l" element={<MainLayout>  <Loader />  </MainLayout>} />
